@@ -10,7 +10,9 @@ Start with `make initial` to delete artefacts from former runs and initialize a 
 
 `make prep` creates a couple of commits including a branch "B". This is the starting point for different experiments.
 
-![starting point](images/starting-point.png)
+<p align=center>
+    <img src="images/starting-point.png" width="220" height="119" />
+</p>
 
 From the starting point you can try one of the other make targets like, `make merge`, `make cherry-pick*`, etc.
 
