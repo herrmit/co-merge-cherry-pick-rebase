@@ -16,7 +16,9 @@ Start with `make initial` to delete artefacts from former runs and initialize a 
 
 From the starting point you can try one of the other make targets like, `make merge`, `make cherry-pick*`, etc.
 
-**Hint:** To avoid merge conflicts every commit consists one one new file.
+**Hint 1:** To avoid merge conflicts every commit consists one one new file.
+
+**Hint 2:** Pay attention. When you clone this repo then copy `Makefile` to another empty directory. Otherwise your cloned `.git` directory will be overwritten.
 
 ## Inspect the results
 
